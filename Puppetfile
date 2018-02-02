@@ -31,9 +31,9 @@ mod 'ntp',
 
 mod 'role',
   :git => 'https://github.com/NickLinsky/puppet-role',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'profile',
   :git => 'https://github.com/NickLinsky/puppet-profile',
-  :ref => 'development'
+  :ref => 'master'
 
