@@ -1,0 +1,8 @@
+---
+profile::nginx::vhosts:
+ - 'fqdn': 'nicklinsky2.mylabserver.com'
+   'port': 80
+   'servicer_aliases': ''
+ - 'fqdn': 'nicklinsky2b.mylabserver.com'
+   'port': 80
+   'servicer_aliases': 'nicklinsky2b1.mylabserver.com'

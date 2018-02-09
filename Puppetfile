@@ -41,5 +41,5 @@ mod 'profile',
 mod 'nginx',
   :git => 'https://github.com/NickLinsky/puppet-nginx',
 #  :git => 'git@github.com:NickLinsky/puppet-nginx.git',
-  :ref => 'master'
+  :branch => 'production'
 
