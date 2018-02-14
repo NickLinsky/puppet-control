@@ -31,9 +31,9 @@ node 'nicklinsky3.mylabserver' {
   class {'java': }
 }
 
-node /^nicklinsky/ {
-  notify { "This is a node definition using regex!!": }
-}
+#node /^nicklinsky/ {
+#  notify { "This is a node definition using regex!!": }
+#}
 
 node  'nicklinsky1.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
