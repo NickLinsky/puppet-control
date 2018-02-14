@@ -27,19 +27,18 @@ mod 'ssh',
   :ref => 'master'
 
 mod 'ntp',
-  :git => 'https://github.com/NickLinsky/puppet-ntp',
+  :git => 'https://github.com/NickLinsky/puppet-ntp.git',
   :ref => 'master'
 
 mod 'role',
-  :git => 'https://github.com/NickLinsky/puppet-role',
+  :git => 'https://github.com/NickLinsky/puppet-role.git',
   :ref => 'master'
 
 mod 'profile',
-  :git => 'https://github.com/NickLinsky/puppet-profile',
+  :git => 'https://github.com/NickLinsky/puppet-profile.git',
   :ref => 'master'
 
 mod 'nginx',
-  :git => 'https://github.com/NickLinsky/puppet-nginx',
-#  :git => 'git@github.com:NickLinsky/puppet-nginx.git',
-  :branch => 'production'
+  :git => 'git@github.com:NickLinsky/puppet-nginx.git',
+  :ref => 'master'
 
