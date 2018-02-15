@@ -7,4 +7,4 @@ profile::nginx::vhosts:
    'port': 80
    'servicer_aliases': 'nicklinsky2b1.mylabserver.com'
 classes:
-  - profile:ngnix
+  - profile::ngnix
