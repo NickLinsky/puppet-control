@@ -25,6 +25,9 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
+node  'nicklinsky2.mylabserver.com' {
+  notify { 'Exact match on nicklinsky2.mylabserver.com': }
+}
 
 node 'nicklinsky3' {
   notify { 'This matches the nicklinsky3 name!!!! meow': }
