@@ -37,6 +37,7 @@ node 'nicklinsky3' {
 
 node  'nicklinsky1.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
+  include pe_repo::platform::el_7_x86_64
   include pe_repo::platform::ubuntu_1204_amd64
 }
 
