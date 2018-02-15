@@ -25,19 +25,6 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-node  'nicklinsky2.mylabserver.com' {
-  notify { 'Exact match on nicklinsky2.mylabserver.com': }
-}
-
-node 'nicklinsky3' {
-  notify { 'This matches the nicklinsky3 name!!!! meow': }
-  class {'java': }
-}
-
-#node /^nicklinsky/ {
-#  notify { "This is a node definition using regex!!": }
-#}
-
 node  'nicklinsky1.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
   include pe_repo::platform::el_7_x86_64
