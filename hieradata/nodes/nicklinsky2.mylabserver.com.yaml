@@ -6,3 +6,5 @@ profile::nginx::vhosts:
  - 'fqdn': 'nicklinsky2b.mylabserver.com'
    'port': 80
    'servicer_aliases': 'nicklinsky2b1.mylabserver.com'
+classes:
+  - profile:ngnix
