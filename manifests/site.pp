@@ -32,7 +32,7 @@ node  'nicklinsky1.mylabserver.com' {
 }
 
 node  'nicklinsky2.mylabserver.com' {
-  notify {
+  notify { 'nicklinsky2 message title':
     message => "nicklinsky2 node found in site.pp",
   }
 }
