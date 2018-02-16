@@ -10,10 +10,10 @@ class profile::apache(
   #}
 
   #create_resources(::apache::vhost, $apache_vhost_servers)
-  ::apache::vhost{'homepages':
-    port => $port,
-    docroot => $docroot
-  }
+  #::apache::vhost{'homepages':
+  #  port => $port,
+  #  docroot => $docroot
+  #}
 
   file {'/var/www':
     ensure => directory,
