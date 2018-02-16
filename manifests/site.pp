@@ -31,6 +31,11 @@ node  'nicklinsky1.mylabserver.com' {
   include pe_repo::platform::ubuntu_1204_amd64
 }
 
+node  'nicklinsky2.mylabserver.com' {
+  notify {
+    message => "nicklinsky2 node found in site.pp",
+  }
+}
 
 node default {
   hiera_include('classes')
