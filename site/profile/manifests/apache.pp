@@ -5,9 +5,9 @@ class profile::apache(
   #Integer $port = 80,
 ) {
 
-  class {'::apache':
-    default_vhost => $default_vhost,
-  }
+  #class {'::apache':
+  #  default_vhost => $default_vhost,
+  #}
 
   #create_resources(::apache::vhost, $apache_vhost_servers)
   ::apache::vhost{'homepages':
