@@ -13,7 +13,7 @@ mod "stahnma/epel",           '1.2.2'
 mod "puppetlabs/apache",      '2.3.0'
 
 # Modules from Git
-# Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
+# Examples: https://github.com/puppetlabs/r10k/blob/production/doc/puppetfile.mkd#examples
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
@@ -24,19 +24,19 @@ mod "puppetlabs/apache",      '2.3.0'
 
 mod 'ssh',
   :git => 'https://github.com/NickLinsky/puppet-ssh.git',
-  :ref => 'master'
+  :ref => 'production'
 
 mod 'ntp',
   :git => 'https://github.com/NickLinsky/puppet-ntp.git',
-  :ref => 'master'
+  :ref => 'production'
 
 mod 'role',
   :git => 'https://github.com/NickLinsky/puppet-role.git',
-  :ref => 'master'
+  :ref => 'production'
 
 mod 'profile',
   :git => 'https://github.com/NickLinsky/puppet-profile.git',
-  :ref => 'master'
+  :ref => 'production'
 
 mod 'nginx',
   :git => 'git@github.com:NickLinsky/puppet-nginx.git',
