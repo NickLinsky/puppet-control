@@ -24,7 +24,7 @@ mod "puppetlabs/apache",      '2.3.0'
 
 mod 'ssh',
   :git => 'https://github.com/NickLinsky/puppet-ssh.git',
-  :ref => 'master'
+  :ref => 'production'
 
 mod 'ntp',
   :git => 'https://github.com/NickLinsky/puppet-ntp.git',
